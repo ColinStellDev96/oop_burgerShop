@@ -73,7 +73,7 @@ var Menu = function (name, plates) {
 };
 
 Menu.prototype.stringify = function (){
-    return `Our ${this.name} features the following plates: ${this.plates}
+    return `Our ${this.name} which features the following plates: ${this.plates}
     -=-=-=-=-=-=`;
 };
 
@@ -88,7 +88,7 @@ var Restaurant = function (name, descr, menu){
 };
 
 Restaurant.prototype.stringify = function (){
-    return `Welcome to ${this.name}! ${this.descr}. Please take a look at our ${this.menu}. We hope you'll join us soon!`
+    return `Welcome to ${this.name}! ${this.descr}. Please take a look at ${this.menu}. We hope you'll join us soon!`
 };
 
 var restaurantName = new Restaurant('Alice And Bobs Burgers', 'Come on down to Alice and Bobs Burgers to satisfy all your burger cravings!', lunchMenu).stringify();

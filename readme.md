@@ -82,7 +82,6 @@ Define constructors for the following objects. Add parameters to the constructor
 
 Define a `stringify` method on each constructor's prototype. This method should return a string representation of the object, formatted as you choose. stringify should not have any side effects. You may want to reuse the `stringify` method of the contained objects. (e.g. the Menu object should call `stringify` on each of its plates to reuse that functionality instead of having to duplicate the code for each plate).
 
-
 - Instantiate all the FoodItems that you would need for a salad Plate and a burger Plate.
 - Instantiate a salad Plate and a burger Plate.
 - Instantiate a Menu that contains each of the instantiated Plates.
